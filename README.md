@@ -33,7 +33,7 @@ The repository is organized into subject-specific folders. Each subject folder m
 - ...
 - CONTRIBUTING.md
 ```
-## Contribuindo
+## Contribute
 
 We welcome contributions from the community! If you have study materials, notes, or resources that you believe would be valuable to others. Your contributions can include:
 
