@@ -18,10 +18,20 @@ class Solution {
                 }
             }
         }
+        return countIslands;
 
     }
 
-    public int dfs(char[][] grid, int m, int n) {
-        
+    public void dfs(char[][] grid, int m, int n) {
+        if (m < 0 || m >= grid.length || n < 0 || n >= grid[m].length || grid[m][n] == '0') {
+            return;
+
+        }
+        grid[m][n] = '0';
+        dfs(grid, m - 1, n); // up
+        dfs(grid, m + 1, n); // down
+        dfs(grid, m, n - 1); // left
+        dfs(grid, m, n + 1); // right
+
     }
 }
