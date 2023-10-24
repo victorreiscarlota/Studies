@@ -7,7 +7,7 @@
  * surrounded by water.
  */
 
-class Solution {
+class NumberOfIslands {
     public int numIslands(char[][] grid) {
         int countIslands = 0;
         for (int m = 0; m < grid.length; m++) {
@@ -35,3 +35,4 @@ class Solution {
 
     }
 }
+
