@@ -17,19 +17,13 @@ Feel free to explore the folders and contribute to existing subjects or suggest 
 The repository is organized into subject-specific folders. Each subject folder may contain subfolders for different topics or levels of study. The typical structure might look like this:
 
 ``` 
-/Study-Repository
+/Studies
 - Computer-Science
-  - Algorithms
-  - Data-Structures
+  - Algorithms and Data-Structures
   - ...
-- Mathematics
-  - Calculus
-  - Linear-Algebra
-  - ...
-- Literature
-  - Classic-Works
-  - Literary-Analysis
-  - ...
+- Programming Languages
+  - JS
+  - Java
 - ...
 - CONTRIBUTING.md
 ```
