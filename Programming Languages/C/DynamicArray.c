@@ -1,5 +1,7 @@
 // Implementation of a dynamic array in C, based on an idea by tsoding.
 
+// Feel free to test it, be creative with it. 
+
 
 
 
@@ -19,7 +21,7 @@ typedef struct {
     const char *items;
     size_t count;
     size_t capacity;
-} Names;
+} Names; // you can be creative with the structs. 
 
 typedef struct {
     int *items;
