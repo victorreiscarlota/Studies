@@ -32,7 +32,7 @@ typedef struct {
 int main(void) {
     Numbers xs = {0};
 
-    for (int x = 0; x < ARRAY_SIZE; x++)
+    for (int x = 0; x < SIZE; x++)
         DA_APPEND(xs, x);
 
     for (size_t i = 0; i < xs.count; i++)
