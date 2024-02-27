@@ -1,7 +1,7 @@
 #ifndef CONFIG_H_
 #define CONFIG_H_
 
-#define ARRAY_SIZE 100
+#define SIZE 100
 #define DA_APPEND(xs, x) \
 do { \
     if ((xs).count >= (xs).capacity) { \
